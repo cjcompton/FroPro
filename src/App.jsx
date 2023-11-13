@@ -1,13 +1,15 @@
-import { useState } from 'react'
-import HomeBody from './assets/HomeBody'
-import './App.css'
+import { useState } from 'react';
+import './App.css';
+import HomeBody from './assets/HomeBody';
+import MealPlan from './assets/mealPlans';
+import ReasonsNeeded from './assets/ReasonsNeeded';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <HomeBody />
+      <ReasonsNeeded />
+      <MealPlan />
     </>
   )
 }

@@ -3,14 +3,15 @@ import React from "react";
 //make a popup thatd be funny
 function HomeBody() {
     return(
-        <div>
+        /**
+        <section>
             <div className="relative max-w-screen-2xl mx-auto">
                 <img 
                     src="./double container healthy.png" 
                     alt="double container"
                     className="w-full h-auto absolute z-10" 
                 />
-                {/* I want some better font */}
+                // fix sizing
                 <h1 className="text-red-700 z-20 max-w-md
                     text-sm top-4 left-4 
                     md:text-2xl md:top-10 md:left-10
@@ -20,7 +21,13 @@ function HomeBody() {
                     Achieve your goals, <br /> while feeling full
                 </h1>
             </div>
-        </div>
+        </section>
+        */
+       <section>
+        <p className="text-center">
+            hello
+        </p>
+       </section>
     );
 }
 
