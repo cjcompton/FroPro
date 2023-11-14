@@ -44,6 +44,7 @@ function ReasonsNeeded() {
                     </div>
                 </div>
             </div>
+            <a href="google.com">Get Started</a>
         </section>
     );
 }
