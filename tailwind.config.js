@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         headFont: ['RozhaOne-Regular']
       },
+      colors: {
+        'reasonBG': '#D0D4CA'
+      }
     },
   },
   plugins: [
