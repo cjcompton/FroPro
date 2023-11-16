@@ -3,6 +3,7 @@ import './App.css';
 import HomeBody from './assets/HomeBody';
 import MealPlan from './assets/mealPlans';
 import ReasonsNeeded from './assets/ReasonsNeeded';
+import RecipeCarousel from './assets/RecipeCarousel';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HomeBody />
       <ReasonsNeeded />
       <MealPlan />
+      <RecipeCarousel />
     </>
   )
 }
