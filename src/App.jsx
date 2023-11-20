@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import BottomStuff from './assets/BottomStuff';
 import HomeBody from './assets/HomeBody';
 import MealPlan from './assets/mealPlans';
 import ReasonsNeeded from './assets/ReasonsNeeded';
@@ -12,6 +13,7 @@ function App() {
       <ReasonsNeeded />
       <MealPlan />
       <RecipeCarousel />
+      <BottomStuff />
     </>
   )
 }
