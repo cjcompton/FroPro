@@ -3,10 +3,10 @@ import React from "react";
 function BottomStuff() {
     return(
         <section>
-            <div className="bg-gray-500 grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div className="mx-auto text-gray-700">
-                    <h1>Info</h1>
-                    <ul className="underline">
+            <div className="bg-gray-500 grid grid-cols-2 md:grid-cols-4 gap-4 py-8">
+                <div className="mx-auto">
+                    <h1 className="text-white text-lg text-bold pb-1">Info</h1>
+                    <ul className="underline text-gray-700">
                         <li>Lorem</li>
                         <li>ipsum</li>
                         <li>dolor sit</li>
@@ -18,8 +18,8 @@ function BottomStuff() {
                     </ul>
                 </div> 
                 <div className="mx-auto text-gray-700">
-                    <h1>About</h1>
-                    <ul className="underline">
+                    <h1 className="text-white text-lg text-bold pb-1">About</h1>
+                    <ul className="underline text-gray-700">
                         <li>Lorem</li>
                         <li>ipsum</li>
                         <li>dolor sit</li>
@@ -31,8 +31,8 @@ function BottomStuff() {
                     </ul>
                 </div>
                 <div className="mx-auto text-gray-700">
-                    <h1>Help</h1>
-                    <ul className="underline">
+                    <h1 className="text-white text-lg text-bold pb-1">Help</h1>
+                    <ul className="underline text-gray-700">
                         <li>Lorem</li>
                         <li>ipsum</li>
                         <li>dolor sit</li>
@@ -44,8 +44,8 @@ function BottomStuff() {
                     </ul>
                 </div>
                 <div className="mx-auto text-gray-700">
-                    <h1>Other</h1>
-                    <ul className="underline">
+                    <h1 className="text-white text-lg text-bold pb-1">Other</h1>
+                    <ul className="underline text-gray-700">
                         <li>Lorem</li>
                         <li>ipsum</li>
                         <li>dolor sit</li>
